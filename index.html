@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="f03d9411-26dd-4655-91c3-d833ad271a9f" data-root-id="1003"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1108">
+          {"8bbb0074-054d-4c44-a1c2-b3b9156cc58a":{"roots":{"references":[{"attributes":{},"id":"1048","type":"CategoricalTickFormatter"},{"attributes":{"overlay":{"id":"1030","type":"BoxAnnotation"}},"id":"1024","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.4},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"Horsepower"},"y":{"field":"Car"}},"id":"1039","type":"HBar"},{"attributes":{},"id":"1025","type":"SaveTool"},{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{"callback":null},"id":"1005","type":"DataRange1d"},{"attributes":{},"id":"1011","type":"CategoricalScale"},{"attributes":{},"id":"1022","type":"PanTool"},{"attributes":{},"id":"1027","type":"HelpTool"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1022","type":"PanTool"},{"id":"1023","type":"WheelZoomTool"},{"id":"1024","type":"BoxZoomTool"},{"id":"1025","type":"SaveTool"},{"id":"1026","type":"ResetTool"},{"id":"1027","type":"HelpTool"},{"id":"1042","type":"HoverTool"}]},"id":"1028","type":"Toolbar"},{"attributes":{"callback":null,"factors":["Hennessey Venom F5","Koenigsegg Regera","Bugatti Chiron","NIO EP9","Rimac Concept One","Aston Martin Valkyrie","McLaren P1 LM","Ferrari LaFerrari"]},"id":"1007","type":"FactorRange"},{"attributes":{"source":{"id":"1001","type":"ColumnDataSource"}},"id":"1041","type":"CDSView"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1030","type":"BoxAnnotation"},{"attributes":{},"id":"1046","type":"BasicTickFormatter"},{"attributes":{"plot":{"id":"1003","subtype":"Figure","type":"Plot"},"ticker":{"id":"1014","type":"BasicTicker"}},"id":"1017","type":"Grid"},{"attributes":{"axis_label":"Horse Power","formatter":{"id":"1046","type":"BasicTickFormatter"},"plot":{"id":"1003","subtype":"Figure","type":"Plot"},"ticker":{"id":"1014","type":"BasicTicker"}},"id":"1013","type":"LinearAxis"},{"attributes":{},"id":"1023","type":"WheelZoomTool"},{"attributes":{"formatter":{"id":"1048","type":"CategoricalTickFormatter"},"plot":{"id":"1003","subtype":"Figure","type":"Plot"},"ticker":{"id":"1019","type":"CategoricalTicker"}},"id":"1018","type":"CategoricalAxis"},{"attributes":{},"id":"1050","type":"Selection"},{"attributes":{"callback":null,"tooltips":"\n&lt;link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css\"&gt;\n&lt;div class=\"\"&gt;\n    &lt;h3&gt;@Car&lt;/h3&gt;\n    &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt;@Price&lt;/div&gt;\n    &lt;div&gt;&lt;strong&gt;HP:&lt;/strong&gt;@Horsepower&lt;/div&gt;\n    &lt;div&gt;&lt;img src=\"@Image\" class=\"circle\" alt = \"\" width=\"200\"/&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n"},"id":"1042","type":"HoverTool"},{"attributes":{"dimension":1,"plot":{"id":"1003","subtype":"Figure","type":"Plot"},"ticker":{"id":"1019","type":"CategoricalTicker"}},"id":"1021","type":"Grid"},{"attributes":{"callback":null,"data":{"Car":["Hennessey Venom F5","Koenigsegg Regera","Bugatti Chiron","NIO EP9","Rimac Concept One","Aston Martin Valkyrie","McLaren P1 LM","Ferrari LaFerrari"],"Horsepower":[1600,1500,1479,1341,1224,1130,986,950],"Image":["https://autowise.com/wp-content/uploads/2018/06/Hennessey-Venom-F5-15.jpg","https://autowise.com/wp-content/uploads/2018/06/Regera_front_banner2.jpg","https://autowise.com/wp-content/uploads/2018/06/chiron-768x320.webp","https://autowise.com/wp-content/uploads/2018/06/nio-ep9-1.webp","https://autowise.com/wp-content/uploads/2018/06/rimac.webp","https://autowise.com/wp-content/uploads/2018/06/aston-martin-valkyrie-9-720x720.webp","https://autowise.com/wp-content/uploads/2018/06/lanzante-p1-gtr-mclaren-2017-4.webp","https://autowise.com/wp-content/uploads/2018/06/Ferrari-LaFerrari-three-quarter-1260x570.webp"],"Price":["$1.6M","$2M"," $3.4M","1.48M","$1M","$3.2M","$3.7M","$1M"],"index":[0,1,2,3,4,5,6,7]},"selected":{"id":"1050","type":"Selection"},"selection_policy":{"id":"1051","type":"UnionRenderers"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{},"id":"1019","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"blue"},"height":{"value":0.4},"line_color":{"value":"blue"},"right":{"field":"Horsepower"},"y":{"field":"Car"}},"id":"1038","type":"HBar"},{"attributes":{"data_source":{"id":"1001","type":"ColumnDataSource"},"glyph":{"id":"1038","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1039","type":"HBar"},"selection_glyph":null,"view":{"id":"1041","type":"CDSView"}},"id":"1040","type":"GlyphRenderer"},{"attributes":{"below":[{"id":"1013","type":"LinearAxis"}],"left":[{"id":"1018","type":"CategoricalAxis"}],"plot_width":800,"renderers":[{"id":"1013","type":"LinearAxis"},{"id":"1017","type":"Grid"},{"id":"1018","type":"CategoricalAxis"},{"id":"1021","type":"Grid"},{"id":"1030","type":"BoxAnnotation"},{"id":"1040","type":"GlyphRenderer"}],"title":{"id":"1002","type":"Title"},"toolbar":{"id":"1028","type":"Toolbar"},"x_range":{"id":"1005","type":"DataRange1d"},"x_scale":{"id":"1009","type":"LinearScale"},"y_range":{"id":"1007","type":"FactorRange"},"y_scale":{"id":"1011","type":"CategoricalScale"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{"plot":null,"text":"Car with Top HorsePower"},"id":"1002","type":"Title"},{"attributes":{},"id":"1051","type":"UnionRenderers"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1108').textContent;
+                  var render_items = [{"docid":"8bbb0074-054d-4c44-a1c2-b3b9156cc58a","roots":{"1003":"f03d9411-26dd-4655-91c3-d833ad271a9f"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
